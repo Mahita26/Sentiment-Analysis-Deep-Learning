@@ -18,7 +18,7 @@ import torch.nn.functional as F
 import numpy as np
 
 from flask import Flask, render_template, request, jsonify
-from src.preprocess import preprocess_single, decode_prediction, load_object
+from src.preprocess import preprocess_single, decode_prediction, load_object, scaled_softmax
 from src.model import build_model
 
 
@@ -76,7 +76,8 @@ def predict():
     tensor = torch.from_numpy(padded).long().to(DEVICE)
     with torch.no_grad():
         logits = model(tensor)
-        probs = F.softmax(logits, dim=1).cpu().numpy()[0]
+        logits_np = logits.cpu().numpy()[0]
+        probs = scaled_softmax(logits_np)
     result = decode_prediction(probs)
 
     return jsonify(result)

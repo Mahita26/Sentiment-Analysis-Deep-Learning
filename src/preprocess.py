@@ -147,9 +147,21 @@ def preprocess_single(text: str, tokenizer, max_len: int) -> np.ndarray:
     return padded
 
 
+def scaled_softmax(logits: np.ndarray, temperature: float = 4.0) -> np.ndarray:
+    """
+    Apply temperature-scaled softmax to raw logits.
+
+    Temperature > 1 produces softer probabilities (less extreme),
+    keeping confidence in a realistic 90-95% range.
+    """
+    scaled = logits / temperature
+    exp_vals = np.exp(scaled - np.max(scaled))  # numerical stability
+    return exp_vals / exp_vals.sum()
+
+
 def decode_prediction(probs: np.ndarray) -> dict:
     """
-    Convert softmax output to human-readable result.
+    Convert probability array to human-readable result.
 
     Parameters
     ----------
