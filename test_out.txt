@@ -1,0 +1,22 @@
+﻿
+TEST RESULTS
+========================================================================
+ OK Negative (100.0%) | The design is nice but the battery is terrible
+ OK Positive (100.0%) | Bad packaging but amazing product inside
+ OK  Neutral (100.0%) | It is not the best but not the worst either
+ OK Negative (100.0%) | It is not good at all
+ OK Positive (99.5%) | This is not bad actually
+ OK Negative (100.0%) | I do not like this product
+ OK Negative (100.0%) | Oh great another update that broke everything
+ OK Negative (100.0%) | Wow so impressed it lasted two hours
+ OK Negative (100.0%) | I am extremely disappointed
+ OK Positive (100.0%) | Absolutely incredible quality
+ OK Negative (100.0%) | I am extremely disappointed with the quality
+ OK Positive (100.0%) | I love this phone it is amazing
+ OK  Neutral (100.0%) | This product is okay nothing special
+ OK Negative (99.6%) | This is terrible I hate it
+ XX Negative (99.6%) | Best product ever made
+ OK  Neutral (100.0%) | Average quality nothing remarkable
+========================================================================
+ Score: 15/16 correct
+

@@ -26,11 +26,11 @@ from src.model import build_model
 DATASET_PATH  = os.path.join("data", "dataset.csv")
 SAVE_DIR      = "saved_model"
 MAX_WORDS     = 5000
-MAX_LEN       = 50
+MAX_LEN       = 80
 EMBEDDING_DIM = 128
 LSTM_UNITS    = 64
-EPOCHS        = 50
-BATCH_SIZE    = 16
+EPOCHS        = 80
+BATCH_SIZE    = 32
 LEARNING_RATE = 0.001
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
