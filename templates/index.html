@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sentiment Analyzer — Deep Learning</title>
+    <meta name="description" content="AI-powered sentiment analysis using LSTM deep learning. Classify text as Positive, Neutral, or Negative instantly." />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <style>
+        /* ── Reset & Variables ───────────────────────────── */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        :root {
+            --bg-primary:   #0a0a0f;
+            --bg-card:      rgba(255, 255, 255, 0.04);
+            --bg-card-hover:rgba(255, 255, 255, 0.07);
+            --border:       rgba(255, 255, 255, 0.08);
+            --text-primary: #f0f0f5;
+            --text-muted:   #8888a0;
+            --accent:       #6c5ce7;
+            --accent-glow:  rgba(108, 92, 231, 0.35);
+            --positive:     #00e676;
+            --positive-bg:  rgba(0, 230, 118, 0.12);
+            --neutral:      #ffc107;
+            --neutral-bg:   rgba(255, 193, 7, 0.12);
+            --negative:     #ff5252;
+            --negative-bg:  rgba(255, 82, 82, 0.12);
+            --radius:       16px;
+            --radius-sm:    10px;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            overflow-x: hidden;
+        }
+
+        /* ── Animated Background ────────────────────────── */
+        body::before {
+            content: '';
+            position: fixed;
+            top: -50%; left: -50%;
+            width: 200%; height: 200%;
+            background:
+                radial-gradient(ellipse at 20% 50%, rgba(108, 92, 231, 0.08) 0%, transparent 50%),
+                radial-gradient(ellipse at 80% 20%, rgba(0, 230, 118, 0.05) 0%, transparent 50%),
+                radial-gradient(ellipse at 60% 80%, rgba(255, 82, 82, 0.05) 0%, transparent 50%);
+            animation: bgShift 20s ease-in-out infinite alternate;
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        @keyframes bgShift {
+            0%   { transform: translate(0, 0) rotate(0deg); }
+            100% { transform: translate(-3%, 3%) rotate(3deg); }
+        }
+
+        /* ── Container ──────────────────────────────────── */
+        .container {
+            position: relative; z-index: 1;
+            width: 100%; max-width: 700px;
+            padding: 2rem 1.25rem 3rem;
+        }
+
+        /* ── Header ─────────────────────────────────────── */
+        .header {
+            text-align: center;
+            margin-bottom: 2.5rem;
+        }
+
+        .header .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 14px;
+            border-radius: 999px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            font-size: 0.7rem;
+            font-weight: 500;
+            color: var(--text-muted);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+        }
+
+        .badge .dot {
+            width: 6px; height: 6px;
+            border-radius: 50%;
+            background: var(--positive);
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(0,230,118,0.4); }
+            50%      { opacity: 0.6; box-shadow: 0 0 0 6px rgba(0,230,118,0); }
+        }
+
+        h1 {
+            font-size: 2.4rem;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            line-height: 1.15;
+            margin-bottom: 0.6rem;
+            background: linear-gradient(135deg, #fff 0%, #b0b0d0 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .subtitle {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+        }
+
+        /* ── Card ───────────────────────────────────────── */
+        .card {
+            background: var(--bg-card);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 1.75rem;
+            margin-bottom: 1.25rem;
+            transition: background 0.3s;
+        }
+
+        .card:hover { background: var(--bg-card-hover); }
+
+        /* ── Textarea ───────────────────────────────────── */
+        .input-wrapper { position: relative; }
+
+        textarea {
+            width: 100%;
+            min-height: 120px;
+            padding: 1rem 1.15rem;
+            background: rgba(0, 0, 0, 0.25);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-sm);
+            color: var(--text-primary);
+            font-family: inherit;
+            font-size: 0.95rem;
+            line-height: 1.6;
+            resize: vertical;
+            transition: border-color 0.25s, box-shadow 0.25s;
+            outline: none;
+        }
+
+        textarea::placeholder { color: var(--text-muted); }
+        textarea:focus {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px var(--accent-glow);
+        }
+
+        .char-count {
+            position: absolute;
+            bottom: 10px; right: 14px;
+            font-size: 0.7rem;
+            color: var(--text-muted);
+        }
+
+        /* ── Button ─────────────────────────────────────── */
+        .btn-primary {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            width: 100%;
+            padding: 14px;
+            margin-top: 1rem;
+            border: none;
+            border-radius: var(--radius-sm);
+            background: linear-gradient(135deg, var(--accent), #8b5cf6);
+            color: #fff;
+            font-family: inherit;
+            font-size: 0.95rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.15s, box-shadow 0.25s, opacity 0.25s;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 6px 24px var(--accent-glow);
+        }
+
+        .btn-primary:active { transform: translateY(0); }
+
+        .btn-primary:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+
+        .btn-primary .spinner {
+            width: 18px; height: 18px;
+            border: 2px solid rgba(255,255,255,0.3);
+            border-top-color: #fff;
+            border-radius: 50%;
+            animation: spin 0.6s linear infinite;
+            display: none;
+        }
+
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        /* ── Examples ───────────────────────────────────── */
+        .examples-label {
+            font-size: 0.75rem;
+            font-weight: 500;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            margin-bottom: 0.6rem;
+        }
+
+        .examples {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .example-btn {
+            padding: 7px 14px;
+            border: 1px solid var(--border);
+            border-radius: 999px;
+            background: transparent;
+            color: var(--text-muted);
+            font-family: inherit;
+            font-size: 0.78rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .example-btn:hover {
+            background: rgba(255,255,255,0.06);
+            color: var(--text-primary);
+            border-color: rgba(255,255,255,0.15);
+        }
+
+        /* ── Result ─────────────────────────────────────── */
+        .result-card {
+            display: none;
+            opacity: 0;
+            transform: translateY(12px);
+            animation: slideUp 0.4s ease forwards;
+        }
+
+        .result-card.visible {
+            display: block;
+        }
+
+        @keyframes slideUp {
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .result-header {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 1.5rem;
+        }
+
+        .result-emoji {
+            font-size: 2.8rem;
+            line-height: 1;
+            animation: bounceIn 0.5s ease;
+        }
+
+        @keyframes bounceIn {
+            0%   { transform: scale(0); }
+            60%  { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+
+        .result-label {
+            font-size: 1.6rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+
+        .result-confidence {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: 2px;
+        }
+
+        /* ── Probability Bars ───────────────────────────── */
+        .prob-bars { display: flex; flex-direction: column; gap: 12px; }
+
+        .prob-row {
+            display: grid;
+            grid-template-columns: 80px 1fr 50px;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .prob-label {
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: var(--text-muted);
+        }
+
+        .prob-track {
+            height: 8px;
+            background: rgba(255, 255, 255, 0.06);
+            border-radius: 999px;
+            overflow: hidden;
+        }
+
+        .prob-fill {
+            height: 100%;
+            border-radius: 999px;
+            width: 0%;
+            transition: width 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+
+        .prob-fill.positive { background: linear-gradient(90deg, #00e676, #69f0ae); }
+        .prob-fill.neutral  { background: linear-gradient(90deg, #ffc107, #ffee58); }
+        .prob-fill.negative { background: linear-gradient(90deg, #ff5252, #ff8a80); }
+
+        .prob-value {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            text-align: right;
+        }
+
+        /* ── Sentiment Chip ─────────────────────────────── */
+        .sentiment-positive { color: var(--positive); }
+        .sentiment-neutral  { color: var(--neutral); }
+        .sentiment-negative { color: var(--negative); }
+
+        /* ── Architecture Card ──────────────────────────── */
+        .arch-card {
+            margin-top: 0.5rem;
+        }
+
+        .arch-title {
+            font-size: 0.75rem;
+            font-weight: 500;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            margin-bottom: 1rem;
+        }
+
+        .arch-pipeline {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 0;
+        }
+
+        .arch-step {
+            display: flex;
+            align-items: center;
+            gap: 0;
+        }
+
+        .arch-node {
+            padding: 8px 14px;
+            border-radius: 8px;
+            background: rgba(108, 92, 231, 0.1);
+            border: 1px solid rgba(108, 92, 231, 0.2);
+            font-size: 0.72rem;
+            font-weight: 500;
+            color: #b8b0f0;
+            white-space: nowrap;
+        }
+
+        .arch-arrow {
+            color: var(--text-muted);
+            font-size: 0.75rem;
+            padding: 0 4px;
+            opacity: 0.5;
+        }
+
+        /* ── Footer ─────────────────────────────────────── */
+        .footer {
+            text-align: center;
+            padding: 2rem 0 1rem;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+
+        .footer a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        /* ── Responsive ─────────────────────────────────── */
+        @media (max-width: 520px) {
+            .container { padding: 1.25rem 1rem 2rem; }
+            h1 { font-size: 1.75rem; }
+            .card { padding: 1.25rem; }
+            .arch-pipeline { gap: 4px; }
+            .arch-node { font-size: 0.65rem; padding: 6px 10px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="badge">
+                <span class="dot"></span>
+                LSTM Deep Learning Model
+            </div>
+            <h1>Sentiment Analyzer</h1>
+            <p class="subtitle">Type any text and our AI will detect the emotion behind it — Positive, Neutral, or Negative.</p>
+        </header>
+
+        <!-- Input Card -->
+        <div class="card">
+            <div class="input-wrapper">
+                <textarea id="textInput" placeholder="Enter your text here... e.g. &quot;This product is amazing!&quot;" maxlength="500"></textarea>
+                <span class="char-count"><span id="charCount">0</span> / 500</span>
+            </div>
+            <button class="btn-primary" id="predictBtn" onclick="predict()">
+                <span class="spinner" id="spinner"></span>
+                <span id="btnText">Analyze Sentiment</span>
+            </button>
+        </div>
+
+        <!-- Examples -->
+        <div class="card">
+            <div class="examples-label">Try an example</div>
+            <div class="examples" id="examples">
+                <button class="example-btn" onclick="useExample(this)">I love this phone it is amazing</button>
+                <button class="example-btn" onclick="useExample(this)">This product is okay nothing special</button>
+                <button class="example-btn" onclick="useExample(this)">Worst purchase of my life</button>
+                <button class="example-btn" onclick="useExample(this)">The service was exceptional</button>
+                <button class="example-btn" onclick="useExample(this)">It does what it is supposed to do</button>
+                <button class="example-btn" onclick="useExample(this)">Complete waste of money</button>
+            </div>
+        </div>
+
+        <!-- Result Card -->
+        <div class="card result-card" id="resultCard">
+            <div class="result-header">
+                <div class="result-emoji" id="resultEmoji"></div>
+                <div>
+                    <div class="result-label" id="resultLabel"></div>
+                    <div class="result-confidence" id="resultConfidence"></div>
+                </div>
+            </div>
+            <div class="prob-bars">
+                <div class="prob-row">
+                    <span class="prob-label">Positive</span>
+                    <div class="prob-track"><div class="prob-fill positive" id="barPositive"></div></div>
+                    <span class="prob-value" id="valPositive">0%</span>
+                </div>
+                <div class="prob-row">
+                    <span class="prob-label">Neutral</span>
+                    <div class="prob-track"><div class="prob-fill neutral" id="barNeutral"></div></div>
+                    <span class="prob-value" id="valNeutral">0%</span>
+                </div>
+                <div class="prob-row">
+                    <span class="prob-label">Negative</span>
+                    <div class="prob-track"><div class="prob-fill negative" id="barNegative"></div></div>
+                    <span class="prob-value" id="valNegative">0%</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Architecture -->
+        <div class="card arch-card">
+            <div class="arch-title">Model Architecture</div>
+            <div class="arch-pipeline">
+                <span class="arch-step"><span class="arch-node">Text Input</span><span class="arch-arrow">→</span></span>
+                <span class="arch-step"><span class="arch-node">Preprocessing</span><span class="arch-arrow">→</span></span>
+                <span class="arch-step"><span class="arch-node">Embedding</span><span class="arch-arrow">→</span></span>
+                <span class="arch-step"><span class="arch-node">LSTM</span><span class="arch-arrow">→</span></span>
+                <span class="arch-step"><span class="arch-node">Dense</span><span class="arch-arrow">→</span></span>
+                <span class="arch-step"><span class="arch-node">Softmax</span></span>
+            </div>
+        </div>
+
+        <footer class="footer">
+            Built with <a href="#">TensorFlow</a> &amp; <a href="#">Keras LSTM</a> · Deep Learning Sentiment Analysis
+        </footer>
+    </div>
+
+    <script>
+        // ── DOM References ──────────────────────────────────
+        const textInput   = document.getElementById('textInput');
+        const charCount   = document.getElementById('charCount');
+        const predictBtn  = document.getElementById('predictBtn');
+        const spinner     = document.getElementById('spinner');
+        const btnText     = document.getElementById('btnText');
+        const resultCard  = document.getElementById('resultCard');
+        const resultEmoji = document.getElementById('resultEmoji');
+        const resultLabel = document.getElementById('resultLabel');
+        const resultConf  = document.getElementById('resultConfidence');
+
+        const EMOJI_MAP = { Positive: '😊', Neutral: '😐', Negative: '😞' };
+        const CLASS_MAP = { Positive: 'sentiment-positive', Neutral: 'sentiment-neutral', Negative: 'sentiment-negative' };
+
+        // ── Character count ─────────────────────────────────
+        textInput.addEventListener('input', () => {
+            charCount.textContent = textInput.value.length;
+        });
+
+        // ── Enter key shortcut ──────────────────────────────
+        textInput.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' && !e.shiftKey) {
+                e.preventDefault();
+                predict();
+            }
+        });
+
+        // ── Use example ─────────────────────────────────────
+        function useExample(btn) {
+            textInput.value = btn.textContent;
+            charCount.textContent = textInput.value.length;
+            textInput.focus();
+            predict();
+        }
+
+        // ── Predict ─────────────────────────────────────────
+        async function predict() {
+            const text = textInput.value.trim();
+            if (!text) {
+                textInput.focus();
+                return;
+            }
+
+            // UI – loading state
+            predictBtn.disabled = true;
+            spinner.style.display = 'block';
+            btnText.textContent = 'Analyzing...';
+
+            try {
+                const res  = await fetch('/predict', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ text }),
+                });
+                const data = await res.json();
+
+                if (data.error) {
+                    alert(data.error);
+                    return;
+                }
+
+                showResult(data);
+            } catch (err) {
+                alert('Prediction failed. Make sure the server is running.');
+                console.error(err);
+            } finally {
+                predictBtn.disabled = false;
+                spinner.style.display = 'none';
+                btnText.textContent = 'Analyze Sentiment';
+            }
+        }
+
+        // ── Show Result ─────────────────────────────────────
+        function showResult(data) {
+            // Remove old animation class, reflow, re-add
+            resultCard.classList.remove('visible');
+            resultCard.style.animation = 'none';
+            void resultCard.offsetHeight;          // trigger reflow
+            resultCard.style.animation = '';
+
+            resultEmoji.textContent = EMOJI_MAP[data.label] || '🤖';
+            resultLabel.textContent = data.label;
+            resultLabel.className   = 'result-label ' + (CLASS_MAP[data.label] || '');
+            resultConf.textContent  = `Confidence: ${data.confidence.toFixed(1)}%`;
+
+            resultCard.classList.add('visible');
+
+            // Animate bars
+            setTimeout(() => {
+                setBars(data.probabilities);
+            }, 100);
+        }
+
+        function setBars(probs) {
+            animateBar('barPositive', 'valPositive', probs.Positive);
+            animateBar('barNeutral',  'valNeutral',  probs.Neutral);
+            animateBar('barNegative', 'valNegative', probs.Negative);
+        }
+
+        function animateBar(barId, valId, pct) {
+            document.getElementById(barId).style.width = pct + '%';
+            document.getElementById(valId).textContent = pct.toFixed(1) + '%';
+        }
+    </script>
+</body>
+</html>
