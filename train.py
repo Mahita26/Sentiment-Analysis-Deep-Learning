@@ -25,9 +25,9 @@ MAX_WORDS     = 5000
 MAX_LEN       = 80
 EMBEDDING_DIM = 128
 LSTM_UNITS    = 64
-EPOCHS        = 30
+EPOCHS        = 40
 BATCH_SIZE    = 32
-LEARNING_RATE = 0.001
+LEARNING_RATE = 0.002
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -75,6 +75,7 @@ def main():
     
     criterion = nn.CrossEntropyLoss(weight=class_weights_tensor)
     optimizer = torch.optim.Adam(model.parameters(), lr=LEARNING_RATE, weight_decay=1e-4)
+    scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='max', factor=0.5, patience=3)
 
     # 3. Train
     print("\n[STEP 3] Training model...\n")
@@ -120,6 +121,8 @@ def main():
 
         val_loss /= val_total
         val_acc   = val_correct / val_total
+        
+        scheduler.step(val_acc)
 
         print(f"   Epoch {epoch:2d}/{EPOCHS} | Train Loss: {train_loss:.4f} Acc: {train_acc*100:5.1f}% | Val Loss: {val_loss:.4f} Acc: {val_acc*100:5.1f}%")
 

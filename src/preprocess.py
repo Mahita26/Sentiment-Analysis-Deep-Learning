@@ -27,8 +27,11 @@ def clean_text(text: str) -> str:
     # Pad ? and ! with spaces so they become separate tokens
     text = re.sub(r"([?!])", r" \1 ", text)
     
-    # Remove everything except letters, spaces, ?, and !
-    text = re.sub(r"[^a-z\s?!]", "", text)
+    # Handle negations (not, never, hardly) -> attach to next word
+    text = re.sub(r"\b(not|never|hardly)\s+([a-z]+)", r"\1_\2", text)
+
+    # Remove everything except letters, spaces, ?, _, and !
+    text = re.sub(r"[^a-z\s?!_]", "", text)
     text = re.sub(r"\s+", " ", text).strip()
     return text
 

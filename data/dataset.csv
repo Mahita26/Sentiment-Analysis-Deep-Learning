@@ -1,591 +1,1021 @@
 text,sentiment
-I love this phone it is amazing,Positive
-This is the best product I have ever bought,Positive
-Absolutely wonderful experience,Positive
-Great quality and fast delivery,Positive
-I am very happy with this purchase,Positive
-This phone has excellent camera quality,Positive
-The battery life is fantastic,Positive
-Amazing sound quality I love it,Positive
-Best value for money product,Positive
-I highly recommend this to everyone,Positive
-This is a must buy product,Positive
-Superb performance and great design,Positive
-I am in love with this phone,Positive
-The display is beautiful and vibrant,Positive
-Outstanding customer service experience,Positive
-This exceeded all my expectations,Positive
-Perfect gift for my family,Positive
-The food was absolutely delicious,Positive
-I enjoyed every moment of the movie,Positive
-Brilliant product with great features,Positive
-The service was exceptional and friendly,Positive
-Very impressed with the build quality,Positive
-This app works perfectly for me,Positive
-The hotel room was clean and comfortable,Positive
-I am extremely satisfied with this,Positive
-Wonderful design and easy to use,Positive
-Love the color and texture,Positive
-Such a great experience shopping here,Positive
-The delivery was fast and packaging was safe,Positive
-I would definitely buy this again,Positive
-This is my favorite product so far,Positive
-The quality is top notch and premium,Positive
-Incredible performance for the price,Positive
-This restaurant serves the best food,Positive
-I am so glad I bought this,Positive
-Amazing experience from start to finish,Positive
-The software is smooth and responsive,Positive
-Highly impressed with the speed,Positive
-This laptop performs exceptionally well,Positive
-Five stars without any doubt,Positive
-This is the greatest invention ever,Positive
-What a fantastic movie that was,Positive
-I feel great after using this product,Positive
-Beautiful packaging and premium feel,Positive
-Love how fast this computer boots up,Positive
-The staff was incredibly helpful,Positive
-I am thrilled with this purchase,Positive
-Great sound and bass quality,Positive
-This is exactly what I needed,Positive
-Phenomenal experience will come back again,Positive
-I love the new features in this update,Positive
-The user interface is clean and intuitive,Positive
-This vacuum cleaner works like a charm,Positive
-My kids absolutely love this toy,Positive
-The flowers arrived fresh and beautiful,Positive
-This course taught me so much,Positive
-Best headphones I have ever owned,Positive
-The gym equipment is sturdy and reliable,Positive
-This cookbook has amazing recipes,Positive
-The running shoes are extremely comfortable,Positive
-This smartwatch tracks everything perfectly,Positive
-The sunscreen works great and smells nice,Positive
-Amazing gaming experience with no lag,Positive
-The moisturizer made my skin glow,Positive
-Such a well written and engaging book,Positive
-The air fryer cooks food perfectly,Positive
-I really enjoy using this planner,Positive
-The backpack is spacious and durable,Positive
-Best coffee I have tasted in years,Positive
-This puzzle was fun and challenging,Positive
-Fantastic value for the quality you get,Positive
-The shipping was incredibly fast and free,Positive
-This dress fits perfectly and looks stunning,Positive
-The customer support team was very patient,Positive
-I am blown away by the picture quality,Positive
-My dog loves this new bed,Positive
-The subscription service is totally worth it,Positive
-These vitamins have improved my health,Positive
-What a wonderful surprise gift this was,Positive
-The cleaning products work like magic,Positive
-This is truly an awesome product,Positive
-I really really love this item so much,Positive
-Such a beautiful and well made product,Positive
-Everything about this is perfect,Positive
-I am overjoyed with my purchase,Positive
-Hands down the best thing I have bought,Positive
-This made my day so much better,Positive
-Easily the best product in this category,Positive
-I could not be happier with this,Positive
-This deserves more than five stars,Positive
-The team did an incredible job,Positive
-Happy to say this works flawlessly,Positive
-Really glad I chose this one,Positive
-Best decision I have made in a while,Positive
-My whole family enjoys this product,Positive
-The craftsmanship is simply beautiful,Positive
-What a pleasant surprise this was,Positive
-This is everything I was hoping for,Positive
-Works beautifully right out of the box,Positive
-I have recommended this to all my friends,Positive
-Absolutely love it cannot say enough good things,Positive
-He is a wonderful person,Positive
-She is so kind and caring,Positive
-What a lovely human being,Positive
-He is the best friend anyone could have,Positive
-She is truly amazing and inspiring,Positive
-This person is a gem,Positive
-He has a heart of gold,Positive
-She always makes everyone smile,Positive
-What a great guy to be around,Positive
-She is an angel in disguise,Positive
-He is so talented and hardworking,Positive
-She is the sweetest person I know,Positive
-He is a legend in every way,Positive
-This person deserves all the happiness,Positive
-She lights up every room she walks into,Positive
-He is my hero and role model,Positive
-She is an absolute queen,Positive
-He is genuinely a good soul,Positive
-The design is nice but the battery is terrible,Negative
-It looks good but performs very badly,Negative
-The screen is great but the speakers are awful,Negative
-I liked the color but the quality is poor,Negative
-The packaging was nice but the product is broken,Negative
-Good camera but terrible battery life,Negative
-The food looked nice but tasted horrible,Negative
-Seems good at first but falls apart quickly,Negative
-Nice design however it stopped working in a day,Negative
-Started well but the ending was disappointing,Negative
-The price is good but the quality is garbage,Negative
-Looks premium but feels very cheap,Negative
-The app looks nice but crashes constantly,Negative
-The exterior is beautiful but the interior is awful,Negative
-Good packaging though the product itself is terrible,Negative
-The menu looks great but the food was disgusting,Negative
-Service was quick although the food was bad,Negative
-It has nice features yet it breaks easily,Negative
-The hardware is okay but the software is terrible,Negative
-Good concept but horrible execution,Negative
-It was cheap but totally not worth even that price,Negative
-The color is nice but everything else is bad,Negative
-Good in theory but useless in practice,Negative
-Decent size however quality is very poor,Negative
-Nice idea but the product is a disaster,Negative
-I thought it would be great but it was awful,Negative
-Expected better but got a terrible product,Negative
-The trailer was amazing but the movie was horrible,Negative
-Promised a lot but delivered nothing useful,Negative
-Had high hopes but was completely let down,Negative
-The store looks nice but the staff was very rude,Negative
-The hotel was beautiful but the service was horrible,Negative
-I liked the idea but the product is a failure,Negative
-The price was bad but the performance is amazing,Positive
-I was skeptical but this product is fantastic,Positive
-It looks simple but works incredibly well,Positive
-Not the prettiest but performs beautifully,Positive
-A bit expensive but totally worth every penny,Positive
-The packaging was plain but the product is amazing,Positive
-It seemed ordinary but turned out to be excellent,Positive
-At first I doubted it but now I love it,Positive
-I was worried but the quality exceeded expectations,Positive
-Not much to look at but it works like a dream,Positive
-The color is boring but the functionality is superb,Positive
-It was slow to start but the results are incredible,Positive
-Reviews were mixed but I absolutely love this,Positive
-The instructions were bad but the product is great,Positive
-The setup was annoying but the performance is perfect,Positive
-Took a while to get used to it but now I love it,Positive
-I thought it would be terrible but it turned out amazing,Positive
-Old fashioned looking but incredibly powerful,Positive
-I was disappointed at first but now I am impressed,Positive
-The brand is unknown but the quality is outstanding,Positive
-The design is ugly but the sound quality is excellent,Positive
-It costs a lot but you get what you pay for,Positive
-The weight is heavy but the build quality is solid,Positive
-I hesitated to buy it but I am glad I did,Positive
-Difficult to assemble but works beautifully once done,Positive
-The screen is okay but the speakers are amazing,Positive
-Started rough but turned into a great experience,Positive
-It is not good at all,Negative
-This is not what I expected,Negative
-I do not like this product,Negative
-This is not worth the price,Negative
-I would not recommend this,Negative
-It does not work properly,Negative
-The quality is not good enough,Negative
-This is not a good purchase,Negative
-I am not satisfied with this,Negative
-Do not buy this product ever,Negative
-It is not reliable at all,Negative
-I was not impressed at all,Negative
-This is not useful in any way,Negative
-The service was not helpful at all,Negative
-I do not enjoy using this,Negative
-This is not comfortable at all,Negative
-The food was not fresh at all,Negative
-The movie was not entertaining,Negative
-I will not be coming back here,Negative
-This does not deserve any stars,Negative
-It is not bad actually,Positive
-Not bad for the price,Positive
-Not terrible at all quite good,Positive
-This is not the worst I have seen,Positive
-Not disappointed with this at all,Positive
-I am not unhappy with this purchase,Positive
-Not a bad product at all,Positive
-Cannot complain about this one,Positive
-I would not say this is bad,Positive
-This is not as bad as people say,Positive
-Not the worst option out there,Positive
-Never been disappointed with this brand,Positive
-I never regret buying this product,Positive
-This never fails to impress me,Positive
-Not a single complaint about this,Positive
-I have never seen such good quality,Positive
-I never expected it to be this good,Positive
-Not a bad choice at all,Positive
-You will never regret buying this,Positive
-Never had a bad experience with this,Positive
-This product is extremely bad,Negative
-Absolutely terrible quality,Negative
-I am extremely disappointed,Negative
-Incredibly poor performance,Negative
-This is absolutely disgusting,Negative
-Extremely frustrating to use,Negative
-Unbelievably bad experience,Negative
-Very very poor quality material,Negative
-Absolutely the worst product ever,Negative
-Extremely overpriced garbage,Negative
-This is incredibly awful,Negative
-Completely and utterly useless,Negative
-I am deeply disappointed with this,Negative
-Tremendously bad service,Negative
-Extraordinarily poor craftsmanship,Negative
 This is slightly below average,Negative
-A bit disappointing to be honest,Negative
-Somewhat underwhelming product,Negative
-A little worse than I expected,Negative
-Fairly low quality for the price,Negative
-This is extremely amazing,Positive
-Absolutely incredible quality,Positive
-I am extremely impressed,Positive
-Incredibly good performance,Positive
-This is absolutely beautiful,Positive
-Extremely easy and fun to use,Positive
-Unbelievably good experience,Positive
-Very very high quality material,Positive
-Absolutely the best product ever,Positive
-Extremely well priced treasure,Positive
-This is incredibly awesome,Positive
-Completely and utterly wonderful,Positive
-I am deeply satisfied with this,Positive
-Tremendously good service,Positive
-Extraordinarily fine craftsmanship,Positive
-This is slightly above average,Neutral
-A bit better than I expected,Positive
-Somewhat impressive product,Positive
-A little better than the rest,Positive
-Fairly good quality for the price,Positive
-Oh great another update that broke everything,Negative
-Yeah sure this is the best product ever,Negative
-Wonderful so it stopped working again,Negative
-Amazing how bad this product is,Negative
-Just what I needed another broken item,Negative
-Fantastic now I have to return it again,Negative
-What a surprise it broke on day one,Negative
-Oh how lovely the screen is cracked already,Negative
-Perfect just perfect it does not work at all,Negative
-Sure the customer service will fix this right,Negative
-Wow I am so impressed it lasted two whole hours,Negative
-Great job making the worst product possible,Negative
-Thanks for wasting my money on this garbage,Negative
-How delightful another scam product,Negative
-Oh joy another useless purchase,Negative
-Brilliant idea to buy this total waste,Negative
-I started badly but ended beautifully,Positive
-The beginning was rough but the finish was perfect,Positive
-At first I hated it but then I loved it,Positive
-It seemed bad at first but got better and better,Positive
-I was worried initially but everything turned out great,Positive
-The opening was boring but the ending was amazing,Positive
-First impression was poor but now I am in love,Positive
-Started as a disaster but became my favorite,Positive
-The first chapter was slow but the book got amazing,Positive
-I almost returned it but now I cannot live without it,Positive
-It was good at first but then it fell apart,Negative
-Started great but the quality dropped quickly,Negative
-The beginning was promising but the end was terrible,Negative
-First few days were fine but then it broke,Negative
-Initially impressed but now deeply disappointed,Negative
-It worked well at first but now it is useless,Negative
-Good first impression but terrible long term,Negative
-The honeymoon phase ended and it became awful,Negative
-Started strong but finished as the worst product,Negative
-I liked it initially but now I regret the purchase,Negative
-This product is okay nothing special,Neutral
-It works fine for the price,Neutral
-The delivery was on time as expected,Neutral
-Average product nothing great nothing bad,Neutral
-It is a decent phone overall,Neutral
-The quality is acceptable for daily use,Neutral
-Not bad but not amazing either,Neutral
-It does what it is supposed to do,Neutral
-The design is simple and basic,Neutral
-Normal product nothing to complain about,Neutral
-It is an average experience,Neutral
-The food was okay not too bad,Neutral
-The service was standard and regular,Neutral
-I have no strong opinion about this,Neutral
-It is a fair product for the cost,Neutral
-The movie was neither good nor bad,Neutral
-It is a regular phone nothing fancy,Neutral
-The size is standard and expected,Neutral
-Works as described in the listing,Neutral
-The quality matches the price point,Neutral
-It is a basic laptop for everyday use,Neutral
-The battery life is average,Neutral
-Nothing special but gets the job done,Neutral
-I feel indifferent about this product,Neutral
-It is neither impressive nor disappointing,Neutral
-The experience was fairly standard,Neutral
-It meets the minimum requirements,Neutral
-The packaging was adequate and simple,Neutral
-A mediocre product with no surprises,Neutral
-It is just an ordinary phone,Neutral
-The taste was alright but not memorable,Neutral
-Could be better could be worse,Neutral
-The app functions but has room for improvement,Neutral
-Not the best but not the worst either,Neutral
-An average laptop for basic tasks,Neutral
-The features are standard for this range,Neutral
-I have mixed feelings about this product,Neutral
-It serves its purpose well enough,Neutral
-The camera quality is just okay,Neutral
-This is a run of the mill product,Neutral
-An ordinary experience nothing to write about,Neutral
-Pretty standard nothing out of the ordinary,Neutral
-The screen resolution is average,Neutral
-It is a reasonable product for now,Neutral
-The software is functional but basic,Neutral
-Not particularly impressed or disappointed,Neutral
-It is adequate for what I need,Neutral
-The hotel was clean but nothing luxurious,Neutral
-Average customer service nothing memorable,Neutral
-The product looks like every other one,Neutral
-It is passable for temporary usage,Neutral
-A typical product in this category,Neutral
-The course material is fair and average,Neutral
-This vacuum does an adequate job,Neutral
-A regular toy nothing too exciting,Neutral
-The flowers were delivered as expected,Neutral
-Standard headphones for every day listening,Neutral
-The gym equipment is basic but functional,Neutral
-An ordinary cookbook with common recipes,Neutral
-The running shoes fit well enough,Neutral
-This smartwatch has standard tracking features,Neutral
-The sunscreen works but feels greasy,Neutral
-Gaming performance is acceptable on low settings,Neutral
-The moisturizer is decent but nothing special,Neutral
-An average book with a predictable plot,Neutral
-The air fryer takes some getting used to,Neutral
-This planner is simple and straightforward,Neutral
-The backpack is fine for school use,Neutral
-Average coffee nothing remarkable,Neutral
-This puzzle was standard difficulty,Neutral
-The tablet works fine for browsing,Neutral
-A normal pair of earbuds,Neutral
-The dress was average nothing stylish,Neutral
-Shipping was standard and took the usual time,Neutral
-The subscription has some good and some ok content,Neutral
-These vitamins seem to work alright,Neutral
-A regular gift nothing too surprising,Neutral
-The cleaning product works as any other would,Neutral
-My dog seems okay with this bed,Neutral
-The picture quality is standard for this price,Neutral
-Customer support was available but slow,Neutral
-The value is about what you would expect,Neutral
-It is an okay product I guess,Neutral
-Nothing wrong with it but nothing exciting,Neutral
-Seems like an average item to me,Neutral
-I do not have any complaints really,Neutral
-It is what it is nothing more,Neutral
-A normal everyday kind of product,Neutral
-It has some good features and some bad ones,Neutral
-The product has its pros and cons equally,Neutral
-I can see both the advantages and disadvantages,Neutral
-Some parts are great while others need work,Neutral
-There are things I like and things I dislike about it,Neutral
-It is a mixed bag of good and bad,Neutral
-Half the features work well half do not,Neutral
-It is not the best and not the worst product,Neutral
-For every good thing there is a bad thing,Neutral
-I am torn between liking and disliking this,Neutral
-It is not great but it is not terrible either,Neutral
-The good aspects balance out the bad ones,Neutral
-This phone is terrible I hate it,Negative
-Worst product I have ever purchased,Negative
-Absolutely horrible experience never again,Negative
-The quality is extremely poor and cheap,Negative
-I am very disappointed with this purchase,Negative
-This phone stopped working after one day,Negative
-The battery drains way too fast,Negative
-Terrible sound quality very annoying,Negative
-Complete waste of money,Negative
-I would never recommend this to anyone,Negative
-This is the worst purchase of my life,Negative
-Awful performance and ugly design,Negative
-This phone is a total disaster,Negative
-The display cracked within a week,Negative
-Horrible customer service experience,Negative
-This did not meet any of my expectations,Negative
-Returned it immediately after opening,Negative
-The food was absolutely disgusting,Negative
-I hated every moment of the movie,Negative
-Terrible product with no useful features,Negative
-The service was rude and unhelpful,Negative
-Very disappointed with the build quality,Negative
-This app crashes every five minutes,Negative
-The hotel room was dirty and smelly,Negative
-I am extremely unhappy with this,Negative
-Ugly design and very hard to use,Negative
-Hate the color and material quality,Negative
-Such a bad experience shopping here,Negative
-The delivery was late and package was damaged,Negative
-I would never buy this again,Negative
-This is my worst purchase ever,Negative
-The quality is garbage and flimsy,Negative
-Pathetic performance for the price,Negative
-This restaurant serves the worst food,Negative
-I regret buying this product,Negative
-Awful experience from start to finish,Negative
-The software is buggy and slow,Negative
-Extremely slow and frustrating to use,Negative
-This laptop keeps overheating and crashing,Negative
-Zero stars if I could give them,Negative
-This is the worst invention ever made,Negative
-What a terrible movie that was,Negative
-I feel sick after using this product,Negative
-Cheap packaging and feels like a toy,Negative
-This computer takes forever to boot up,Negative
-The staff was incredibly rude,Negative
-I am furious with this purchase,Negative
-Horrible sound and constant buzzing noise,Negative
-This is nothing like what was advertised,Negative
-A complete ripoff do not buy this,Negative
-The screen is dull and pixelated,Negative
-This course was a complete waste of time,Negative
-The vacuum stopped working after a month,Negative
-My kids got bored of this toy instantly,Negative
-The flowers arrived wilted and dead,Negative
-These headphones hurt my ears badly,Negative
-The gym equipment broke on first use,Negative
-This cookbook has confusing instructions,Negative
-The running shoes gave me blisters,Negative
-This smartwatch battery dies in two hours,Negative
-The sunscreen caused a skin rash,Negative
-Constant lagging makes gaming impossible,Negative
-The moisturizer caused an allergic reaction,Negative
-Most boring book I have ever read,Negative
-The air fryer burned everything I cooked,Negative
-This planner fell apart within days,Negative
-The backpack zipper broke immediately,Negative
-Worst coffee I have ever had,Negative
-This puzzle had missing pieces,Negative
-The tablet is unbearably slow,Negative
-These earbuds have awful sound quality,Negative
-The dress ripped after wearing it once,Negative
-Shipping took three weeks and box was crushed,Negative
-This subscription is a total scam,Negative
-These vitamins gave me stomach problems,Negative
-The gift arrived broken and unusable,Negative
-The cleaning product left stains everywhere,Negative
-My dog refused to go near this bed,Negative
-The picture quality is blurry and dark,Negative
-Customer support hung up on me twice,Negative
-Overpriced garbage not worth a single penny,Negative
-I absolutely hate this thing,Negative
-This is such a bad product it makes me angry,Negative
-What a piece of junk do not waste your money,Negative
-I threw it in the trash after one use,Negative
-This is the most useless thing I have ever seen,Negative
-Stay away from this product it is a scam,Negative
-I cannot believe how bad this is,Negative
-Total garbage would give zero stars if possible,Negative
-This ruined my entire experience,Negative
-Disgusting quality and terrible service,Negative
-I want my money back this is unacceptable,Negative
-The worst thing I have ever wasted money on,Negative
-He is a terrible person,Negative
-She is so rude and disrespectful,Negative
-What a horrible human being,Negative
+Hands down the best thing I have bought,Positive
+Not a single complaint about this,Positive
+Do not buy this garbage.,Negative
+Nothing special at all.,Neutral
+I highly recommend this to anyone.,Positive
+Acceptable.,Neutral
 He is the worst friend anyone could have,Negative
-She is truly awful and toxic,Negative
-This person is a nightmare,Negative
-He has no heart at all,Negative
-She always makes everyone miserable,Negative
-What a terrible guy to be around,Negative
-She is a devil in disguise,Negative
-He is so lazy and useless,Negative
-She is the meanest person I know,Negative
-He is a disgrace in every way,Negative
-This person deserves nothing good,Negative
-She ruins every room she walks into,Negative
-He is my worst enemy,Negative
-She is an absolute disaster,Negative
-He is a genuinely bad person,Negative
-He is an idiot and a fool,Negative
-She is so stupid and annoying,Negative
-What a jerk he turned out to be,Negative
-He is such a loser it is sad,Negative
-She is the worst person I have ever met,Negative
-This guy is so irritating and obnoxious,Negative
-He is a complete moron,Negative
-She is unbearable to be around,Negative
-What a disgusting human being he is,Negative
-He is such a creep and a weirdo,Negative
-I am extremely disappointed with the quality of this item,Negative
-This product failed me completely after one week of use,Negative
-The build quality feels extremely cheap and fragile,Negative
-I regret every single penny I spent on this garbage,Negative
-This is hands down the most useless thing I own,Negative
-The customer service refused to help me at all,Negative
-I cannot express how frustrated I am with this purchase,Negative
-Everything about this product screams poor quality,Negative
-This is a total letdown in every possible way,Negative
-I would give this negative stars if I could,Negative
-that is a nice picture,Positive
-the design is very nice and elegant,Positive
-what a nice surprise,Positive
-this is a nice product overall,Positive
-very nice experience I am happy,Positive
-the weather is nice today,Positive
-such a nice color and texture,Positive
-the staff was very nice and helpful,Positive
+Whatever.,Neutral
+"Yeah right, like this is actually going to work.",Negative
+Best value for money product,Positive
+Brilliant product with great features,Positive
+Decent.,Neutral
+The color is nice but everything else is bad,Negative
+It is completely useless.,Negative
+Superb build quality and excellent performance.,Positive
+The best investment I have made this year.,Positive
+Extraordinarily fine craftsmanship,Positive
+Terrible product with no useful features,Negative
+I regret buying this product,Negative
+I have mixed feelings about this product,Neutral
+Tremendously good service,Positive
+Great features but horrible customer support.,Negative
+Is the battery life acceptable ?,Positive
+The best investment I have made this year.,Positive
+The design is good but the battery is terrible.,Negative
+Okay.,Neutral
+It weighs exactly what the box says.,Neutral
+The packaging was nice but the item arrived broken.,Negative
+"Wow, this lasted a whole two days. Impressive.",Negative
+Old fashioned looking but incredibly powerful,Positive
+I demand a full refund for this trash.,Negative
+Was the service bad ?,Negative
 I had a nice time using this app,Positive
-nice packaging and fast delivery,Positive
-good but slow,Negative
-it looks good but fails quickly,Negative
-good idea but terrible execution,Negative
-was good at first but then broke,Negative
-good price but the quality is awful,Negative
-this is not good,Negative
-not what I expected at all,Negative
-not a good choice,Negative
-I do not like this,Negative
-this is definitely not nice,Negative
-not worth the money,Negative
+These vitamins seem to work alright,Neutral
+Not bad looking but it breaks after one use.,Negative
+It has flaws but I absolutely love it.,Positive
+The service was exceptional and friendly,Positive
+Acceptable.,Neutral
+What a surprise it broke on day one,Negative
+I enjoyed every moment of the movie,Positive
+Started great but the quality dropped quickly,Negative
+Fantastic job breaking my phone.,Negative
+Horrible customer service experience,Negative
 the item is as described,Neutral
-it arrived on tuesday,Neutral
-the color is blue,Neutral
-it has a standard screen,Neutral
-the package contains a manual,Neutral
-this is a 64gb version,Neutral
-it weighs around 2 pounds,Neutral
-the battery lasts exactly 8 hours,Neutral
-I received the product today,Neutral
-it is neither good nor bad,Neutral
-I have no strong feelings about it,Neutral
-just an average everyday item,Neutral
-it does exactly what it is supposed to do,Neutral
-the material is plastic,Neutral
-it comes in a cardboard box,Neutral
-the app requires an internet connection,Neutral
-it is okay nothing special,Neutral
-it is fine,Neutral
-standard quality,Neutral
-nothing extraordinary,Neutral
-Best product ever made,Positive
-I absolutely love this,Positive
-exceeded all my expectations,Positive
-highly recommended to everyone,Positive
-flawless performance,Positive
-is that nice ?,Positive
-is that good ?,Positive
-is that bad ?,Negative
-that is nice,Positive
-this is nice,Positive
-that is not nice,Negative
-this is not nice,Negative
-is this nice ?,Positive
-is this bad ?,Negative
-that is very good !,Positive
-is it okay ?,Neutral
-is it fine ?,Neutral
-not good,Negative
-not bad,Positive
-not nice,Negative
-it is okay,Neutral
+First few days were fine but then it broke,Negative
+The service was standard and regular,Neutral
+Terrible.,Negative
+I demand a full refund for this trash.,Negative
+These vitamins have improved my health,Positive
 it is bad,Negative
+Very expensive but totally worth the premium price.,Positive
+This phone is better than the previous one.,Positive
+The food was okay not too bad,Neutral
+Service was quick although the food was bad,Negative
+Absolutely horrible experience never again,Negative
+It is passable for temporary usage,Neutral
+He is a wonderful person,Positive
+Gaming performance is acceptable on low settings,Neutral
+Brilliant idea to buy this total waste,Negative
+She is so stupid and annoying,Negative
+Easily the best product in this category,Positive
+Beautiful packaging and premium feel,Positive
+The app looks nice but crashes constantly,Negative
+"Yeah right, like this is actually going to work.",Negative
+Is it good ?,Positive
+Awful experience from start to finish,Negative
+Is this product worth the money ?,Positive
+It does the basic job.,Neutral
+it is okay,Neutral
+It weighs exactly what the box says.,Neutral
+Constant lagging makes gaming impossible,Negative
+Meh.,Neutral
+The software is functional but basic,Neutral
+A bit expensive but totally worth every penny,Positive
+I have no strong feelings about it,Neutral
+This is the worst invention ever made,Negative
+This guy is so irritating and obnoxious,Negative
+Not a bad product at all,Positive
+What a terrible guy to be around,Negative
+Such a beautiful and well made product,Positive
+I threw it in the trash after one use,Negative
+Extremely overpriced garbage,Negative
+Usually I hate this brand but this model is fantastic.,Positive
+Is it good ?,Positive
+Are you serious with this quality ?,Negative
+Was the delivery on time ?,Positive
+This app crashes every five minutes,Negative
+Very expensive but totally worth the premium price.,Positive
+The best investment I have made this year.,Positive
+Completely unacceptable quality.,Negative
+Nothing special at all.,Neutral
+Acceptable.,Neutral
+It works flawlessly every time.,Positive
+This subscription is a total scam,Negative
+Complete waste of money,Negative
+Superb build quality and excellent performance.,Positive
+The screen is dull and pixelated,Negative
+It is made of plastic.,Neutral
+the material is plastic,Neutral
+Not great.,Negative
+I do not like this,Negative
+Faster than the older model.,Positive
+Thanks for wasting my money on this garbage,Negative
+Is this the best phone ever ?,Positive
+I am extremely disappointed,Negative
+Not bad looking but it breaks after one use.,Negative
+The flowers arrived fresh and beautiful,Positive
+it comes in a cardboard box,Neutral
+Absolutely the best product ever,Positive
+Superior quality compared to everything else.,Positive
+Absolutely wonderful experience,Positive
+Could be better could be worse,Neutral
+Usually I hate this brand but this model is fantastic.,Positive
+"Oh brilliant, exactly what I did not want.",Negative
+The running shoes fit well enough,Neutral
+I highly recommend this to anyone.,Positive
+The best investment I have made this year.,Positive
+This phone is better than the previous one.,Positive
+I want my money back this is unacceptable,Negative
+Incredibly fast and reliable.,Positive
+I love this phone it is amazing,Positive
+The running shoes are extremely comfortable,Positive
+This phone stopped working after one day,Negative
+The delivery was late and package was damaged,Negative
+The staff was incredibly rude,Negative
+Amazing sound quality I love it,Positive
+Superior quality compared to everything else.,Positive
+Average.,Neutral
+It was cheap but totally not worth even that price,Negative
+Fine.,Neutral
+It has flaws but I absolutely love it.,Positive
+Faster than the older model.,Positive
+The store looks nice but the staff was very rude,Negative
+I love the color but the size is totally wrong.,Negative
+The screen is okay but the speakers are amazing,Positive
+Is this product worth the money ?,Positive
+Average customer service nothing memorable,Neutral
+Absolutely fantastic product.,Positive
+The device has a 5 inch screen.,Neutral
+It stopped working after five minutes.,Negative
+The app has a menu.,Neutral
+The design is simple and basic,Neutral
+Did it work correctly ?,Positive
+The build quality feels extremely cheap and fragile,Negative
+This is a run of the mill product,Neutral
+He is a complete moron,Negative
+Not bad looking but it breaks after one use.,Negative
+It costs a lot but you get what you pay for,Positive
+I almost returned it but now I cannot live without it,Positive
+Worst customer service I have ever dealt with.,Negative
+Whatever.,Neutral
+Extremely easy and fun to use,Positive
+Could not be happier with my purchase.,Positive
+Very very poor quality material,Negative
+A massive upgrade from last year.,Positive
+These earbuds have awful sound quality,Negative
+I hesitated to buy it but I am glad I did,Positive
+A massive upgrade from last year.,Positive
+This person is a nightmare,Negative
+It is just an ordinary phone,Neutral
+The delivery was on time as expected,Neutral
+Such a well written and engaging book,Positive
+Best purchase ever if you want to throw away your money.,Negative
+The design is good but the battery is terrible.,Negative
+Stay away from this product it is a scam,Negative
+The delivery was fast and packaging was safe,Positive
+The color is a standard black.,Neutral
+The trailer was amazing but the movie was horrible,Negative
+I absolutely love this,Positive
+Absolutely terrible quality,Negative
+This product failed me completely after one week of use,Negative
+The moisturizer made my skin glow,Positive
+The experience was fairly standard,Neutral
+It requires two AA batteries.,Neutral
+Acceptable.,Neutral
+He is genuinely a good soul,Positive
+Do not buy this garbage.,Negative
+Best product ever made,Positive
+Best purchase ever if you want to throw away your money.,Negative
+It does the basic job.,Neutral
+The cleaning products work like magic,Positive
+Not a bad choice at all,Positive
+The value is about what you would expect,Neutral
+Absolutely the worst product ever,Negative
+Can this get any worse ?,Negative
+This is everything I was hoping for,Positive
+It has flaws but I absolutely love it.,Positive
+He is such a creep and a weirdo,Negative
+The quality is acceptable for daily use,Neutral
+It has flaws but I absolutely love it.,Positive
+It stopped working after five minutes.,Negative
+Are you serious with this quality ?,Negative
+Excellent.,Positive
+This is absolutely beautiful,Positive
+A complete rip-off and a scam.,Negative
+is it fine ?,Neutral
+This is absolutely disgusting,Negative
+Way cheaper feeling than the original version.,Negative
+Could not be happier with my purchase.,Positive
+Is the battery life acceptable ?,Positive
+this is definitely not nice,Negative
+Extremely disappointed in this brand.,Negative
+Extremely slow and frustrating to use,Negative
+Good.,Positive
+The subscription service is totally worth it,Positive
+Usually I hate this brand but this model is fantastic.,Positive
+Bad.,Negative
+An ordinary experience nothing to write about,Neutral
+He is my hero and role model,Positive
+Really glad I chose this one,Positive
+I never regret buying this product,Positive
+I cannot express how frustrated I am with this purchase,Negative
+It is what it is nothing more,Neutral
+The cord is three feet long.,Neutral
+I am extremely unhappy with this,Negative
+She is the meanest person I know,Negative
+This is incredibly awesome,Positive
+Never been disappointed with this brand,Positive
+Superb performance and great design,Positive
+I am overjoyed with my purchase,Positive
+This vacuum does an adequate job,Neutral
+I am so glad I bought this,Positive
+Pretty standard nothing out of the ordinary,Neutral
+I really enjoy using this planner,Positive
+It requires two AA batteries.,Neutral
+Not as good as the competition.,Negative
+It does not work properly,Negative
+The manual is included in the box.,Neutral
+Completely unacceptable quality.,Negative
+Cheap packaging and feels like a toy,Negative
+Oh how lovely the screen is cracked already,Negative
+A bit disappointing to be honest,Negative
+This is not what I expected,Negative
+I never expected it to be this good,Positive
+Did it work correctly ?,Positive
+Worst product I have ever purchased,Negative
+This restaurant serves the worst food,Negative
+I am very disappointed with this purchase,Negative
+highly recommended to everyone,Positive
+Not much to look at but it works like a dream,Positive
+The instructions were bad but the product is great,Positive
+She is the worst person I have ever met,Negative
+The color is a standard black.,Neutral
+She is an absolute disaster,Negative
+Good.,Positive
+It stopped working after five minutes.,Negative
+Much worse than I expected compared to the photos.,Negative
+There are buttons on the side.,Neutral
+Best headphones I have ever owned,Positive
+What a fantastic movie that was,Positive
+Five stars all the way.,Positive
+My whole family enjoys this product,Positive
+nothing extraordinary,Neutral
+"Sure, I love waiting on hold for three hours.",Negative
+What a horrible human being,Negative
+The cord is three feet long.,Neutral
+The food was not fresh at all,Negative
+"Oh brilliant, exactly what I did not want.",Negative
+Much worse than I expected compared to the photos.,Negative
+Worst coffee I have ever had,Negative
+I am extremely impressed,Positive
+Not as good as the competition.,Negative
+Good concept but horrible execution,Negative
+Oh joy another useless purchase,Negative
+Five stars all the way.,Positive
+She is an angel in disguise,Positive
+The features are standard for this range,Neutral
+This course was a complete waste of time,Negative
+Nothing special at all.,Neutral
+Faster than the older model.,Positive
+What a completely wonderful waste of time.,Negative
+is that bad ?,Negative
+Can this get any worse ?,Negative
+The manual is included in the box.,Neutral
+is that good ?,Positive
+Fantastic value for the quality you get,Positive
+The price was bad but the performance is amazing,Positive
+It is neither impressive nor disappointing,Neutral
+This is not worth the price,Negative
+The battery life is fantastic,Positive
+This app works perfectly for me,Positive
+The opening was boring but the ending was amazing,Positive
+Terrible sound quality very annoying,Negative
+Way cheaper feeling than the original version.,Negative
+This puzzle was standard difficulty,Neutral
+It seemed bad at first but got better and better,Positive
+It looks cheap but works perfectly fine.,Positive
+Standard.,Neutral
+The running shoes gave me blisters,Negative
+Just what I needed another broken item,Negative
+Average coffee nothing remarkable,Neutral
+The device has a 5 inch screen.,Neutral
+Meh.,Neutral
+The hardware is okay but the software is terrible,Negative
+It was good at first but then it fell apart,Negative
+I will not be coming back here,Negative
+This phone is better than the previous one.,Positive
+I can see both the advantages and disadvantages,Neutral
+It meets the minimum requirements,Neutral
+Absolutely incredible quality,Positive
+Bad.,Negative
+This phone is better than the previous one.,Positive
+flawless performance,Positive
+It weighs exactly what the box says.,Neutral
+I bought this on a Tuesday.,Neutral
+Shipping was slow but the product is amazing.,Positive
+This is truly an awesome product,Positive
+Completely unacceptable quality.,Negative
+Seems like an average item to me,Neutral
+Acceptable.,Neutral
+A massive upgrade from last year.,Positive
+What a terrible movie that was,Negative
+"Great, another problem to deal with.",Negative
+Is this product worth the money ?,Positive
+Very very high quality material,Positive
+This cookbook has confusing instructions,Negative
+I demand a full refund for this trash.,Negative
+Very expensive but totally worth the premium price.,Positive
+It arrived yesterday.,Neutral
+The packaging was plain but the product is amazing,Positive
+What a wonderful surprise gift this was,Positive
+It has nice features yet it breaks easily,Negative
+I thought it would be great but it was awful,Negative
+Fine.,Neutral
+It comes in three colors.,Neutral
+First impression was poor but now I am in love,Positive
+It arrived yesterday.,Neutral
+The moisturizer is decent but nothing special,Neutral
+The hotel was beautiful but the service was horrible,Negative
+The product has its pros and cons equally,Neutral
+Absolutely fantastic product.,Positive
+Absolutely fantastic product.,Positive
+It is a mixed bag of good and bad,Neutral
+It arrived yesterday.,Neutral
+It is an average experience,Neutral
+Works as described in the listing,Neutral
+What a piece of junk do not waste your money,Negative
+Beautiful design and very functional.,Positive
+For every good thing there is a bad thing,Neutral
+This is the worst purchase of my life,Negative
+At first I doubted it but now I love it,Positive
+Not great.,Negative
+Sure the customer service will fix this right,Negative
+Is this product worth the money ?,Positive
+This vacuum cleaner works like a charm,Positive
+Superior quality compared to everything else.,Positive
+Incredibly fast and reliable.,Positive
+I was skeptical but this product is fantastic,Positive
+These vitamins gave me stomach problems,Negative
+Incredibly good performance,Positive
+Best decision I have made in a while,Positive
+Awesome.,Positive
+The packaging was nice but the item arrived broken.,Negative
+It is what it is.,Neutral
+Do not buy this garbage.,Negative
+This phone is terrible I hate it,Negative
+Had high hopes but was completely let down,Negative
+The beginning was promising but the end was terrible,Negative
+The good aspects balance out the bad ones,Neutral
+The design is good but the battery is terrible.,Negative
+What a completely wonderful waste of time.,Negative
+I absolutely hate this thing,Negative
+It worked well at first but now it is useless,Negative
+The taste was alright but not memorable,Neutral
+This smartwatch battery dies in two hours,Negative
+that is not nice,Negative
+Standard headphones for every day listening,Neutral
+The food looked nice but tasted horrible,Negative
+Could not be happier with my purchase.,Positive
+that is a nice picture,Positive
+Worst customer service I have ever dealt with.,Negative
+The manual is included in the box.,Neutral
+Everything about this is perfect,Positive
+this is a 64gb version,Neutral
+Good in theory but useless in practice,Negative
+The manual is included in the box.,Neutral
+This is not comfortable at all,Negative
+Oh great another update that broke everything,Negative
+Incredibly fast and reliable.,Positive
+Shipping was slow but the product is amazing.,Positive
+Beautiful design and very functional.,Positive
+It is completely useless.,Negative
+She is so kind and caring,Positive
+I am in love with this phone,Positive
+It does the basic job.,Neutral
+good price but the quality is awful,Negative
+The brand is unknown but the quality is outstanding,Positive
+Incredibly poor performance,Negative
+I received the product today,Neutral
+Never had a bad experience with this,Positive
+This course taught me so much,Positive
+Somewhat underwhelming product,Negative
+The honeymoon phase ended and it became awful,Negative
+Awesome.,Positive
+She is truly amazing and inspiring,Positive
+Why is this so terrible ?,Negative
+Good.,Positive
+Worst customer service I have ever dealt with.,Negative
+It is an okay product I guess,Neutral
+The battery drains way too fast,Negative
+It was slow to start but the results are incredible,Positive
+I hated every moment of the movie,Negative
+Whatever.,Neutral
+Much worse than I expected compared to the photos.,Negative
+My dog seems okay with this bed,Neutral
+It looks cheap but works perfectly fine.,Positive
+"Great, another problem to deal with.",Negative
+Was the delivery on time ?,Positive
+The app has a menu.,Neutral
+Hate the color and material quality,Negative
+Started strong but finished as the worst product,Negative
+Love how fast this computer boots up,Positive
+A complete rip-off and a scam.,Negative
+Extremely disappointed in this brand.,Negative
+This phone is better than the previous one.,Positive
+This is the best product I have ever bought,Positive
+the app requires an internet connection,Neutral
+This is a total letdown in every possible way,Negative
+Great features but horrible customer support.,Negative
+The food was absolutely disgusting,Negative
+The weight is heavy but the build quality is solid,Positive
+Awesome.,Positive
+This planner fell apart within days,Negative
+Fantastic job breaking my phone.,Negative
+Best purchase ever if you want to throw away your money.,Negative
+The tablet works fine for browsing,Neutral
+This is not a good purchase,Negative
+This is the most useless thing I have ever seen,Negative
+Horrible.,Negative
+The packaging was nice but the item arrived broken.,Negative
+It is a decent phone overall,Neutral
+The best investment I have made this year.,Positive
+Not particularly impressed or disappointed,Neutral
+Amazing experience from start to finish,Positive
+This product is extremely bad,Negative
+The customer support team was very patient,Positive
+Fantastic job breaking my phone.,Negative
+The screen is great but the speakers are awful,Negative
+Whatever.,Neutral
+The cleaning product works as any other would,Neutral
+Are you serious with this quality ?,Negative
+What a great guy to be around,Positive
+I feel sick after using this product,Negative
+Half the features work well half do not,Neutral
+exceeded all my expectations,Positive
+It has some good features and some bad ones,Neutral
+Extraordinarily poor craftsmanship,Negative
+This puzzle was fun and challenging,Positive
+Do not buy this product ever,Negative
+Are you serious with this quality ?,Negative
+Terrible.,Negative
+I bought this on a Tuesday.,Neutral
+He is the best friend anyone could have,Positive
+The cord is three feet long.,Neutral
+Took a while to get used to it but now I love it,Positive
+Why is this so terrible ?,Negative
+Not as good as the competition.,Negative
+Was the service bad ?,Negative
+Zero stars if I could give them,Negative
+The packaging was nice but the product is broken,Negative
+Good packaging though the product itself is terrible,Negative
+I highly recommend this to anyone.,Positive
+It looks simple but works incredibly well,Positive
+I highly recommend this to everyone,Positive
+An average laptop for basic tasks,Neutral
+Fantastic now I have to return it again,Negative
+The setup was annoying but the performance is perfect,Positive
+Fairly good quality for the price,Positive
+the staff was very nice and helpful,Positive
+Excellent.,Positive
+A typical product in this category,Neutral
+the package contains a manual,Neutral
+It is made of plastic.,Neutral
+Difficult to assemble but works beautifully once done,Positive
+The color is a standard black.,Neutral
+Terrible experience overall.,Negative
+The subscription has some good and some ok content,Neutral
+it looks good but fails quickly,Negative
+Horrible.,Negative
+This is not useful in any way,Negative
+The quality is extremely poor and cheap,Negative
+Not great.,Negative
+I bought this on a Tuesday.,Neutral
+The beginning was rough but the finish was perfect,Positive
+Was the delivery on time ?,Positive
+Great quality and fast delivery,Positive
+The air fryer takes some getting used to,Neutral
+I highly recommend this to anyone.,Positive
+The device has a 5 inch screen.,Neutral
+Expected better but got a terrible product,Negative
+The sunscreen caused a skin rash,Negative
+Can this get any worse ?,Negative
+Fantastic job breaking my phone.,Negative
+Superb build quality and excellent performance.,Positive
+It is not reliable at all,Negative
+"Wow, this lasted a whole two days. Impressive.",Negative
+An ordinary cookbook with common recipes,Neutral
+He is such a loser it is sad,Negative
+What a completely wonderful waste of time.,Negative
+He is a genuinely bad person,Negative
+A regular gift nothing too surprising,Neutral
+I would never recommend this to anyone,Negative
+It comes in three colors.,Neutral
+Good.,Positive
+It weighs exactly what the box says.,Neutral
+The air fryer cooks food perfectly,Positive
+A complete rip-off and a scam.,Negative
+The tablet is unbearably slow,Negative
+I would not say this is bad,Positive
+This cookbook has amazing recipes,Positive
+He is my worst enemy,Negative
+Is the battery life acceptable ?,Positive
+it is neither good nor bad,Neutral
+The hotel room was dirty and smelly,Negative
+Total garbage would give zero stars if possible,Negative
+Not bad looking but it breaks after one use.,Negative
+Usually I hate this brand but this model is fantastic.,Positive
+Unbelievably bad experience,Negative
+It looks cheap but works perfectly fine.,Positive
+Much worse than I expected compared to the photos.,Negative
+Okay.,Neutral
+Beautiful design and very functional.,Positive
+Great features but horrible customer support.,Negative
+Terrible experience overall.,Negative
+The exterior is beautiful but the interior is awful,Negative
+A massive upgrade from last year.,Positive
+There are buttons on the side.,Neutral
+Everything about this product screams poor quality,Negative
+A normal pair of earbuds,Neutral
+The color is a standard black.,Neutral
+Extremely frustrating to use,Negative
+Fine.,Neutral
+Extremely well priced treasure,Positive
+Much worse than I expected compared to the photos.,Negative
+that is nice,Positive
+Such a bad experience shopping here,Negative
+She lights up every room she walks into,Positive
+There are buttons on the side.,Neutral
+"It is neither good nor bad, just average.",Neutral
+The design is good but the battery is terrible.,Negative
+Wow I am so impressed it lasted two whole hours,Negative
+The app functions but has room for improvement,Neutral
+This is not the worst I have seen,Positive
+The sunscreen works great and smells nice,Positive
+Customer support was available but slow,Neutral
+is this nice ?,Positive
+It is what it is.,Neutral
+Great features but horrible customer support.,Negative
+This is slightly above average,Neutral
+The device has a 5 inch screen.,Neutral
+Was the service bad ?,Negative
+My dog loves this new bed,Positive
+good but slow,Negative
+He is a disgrace in every way,Negative
+This restaurant serves the best food,Positive
+The package was left at the door.,Neutral
+Worst customer service I have ever dealt with.,Negative
+What a disgusting human being he is,Negative
+The package was left at the door.,Neutral
+Meh.,Neutral
+She always makes everyone miserable,Negative
+It requires two AA batteries.,Neutral
+Not bad looking but it breaks after one use.,Negative
+Tremendously bad service,Negative
+Decent size however quality is very poor,Negative
+The customer service refused to help me at all,Negative
+Not disappointed with this at all,Positive
+Worst customer service I have ever dealt with.,Negative
+Bad.,Negative
+"It is neither good nor bad, just average.",Neutral
+"Oh brilliant, exactly what I did not want.",Negative
+A complete rip-off and a scam.,Negative
+"Great, another problem to deal with.",Negative
+Customer support hung up on me twice,Negative
+Five stars all the way.,Positive
+this is not nice,Negative
+Less durable than my last pair.,Negative
+I am not satisfied with this,Negative
+Wonderful so it stopped working again,Negative
+The color is a standard black.,Neutral
+I love the new features in this update,Positive
+I started badly but ended beautifully,Positive
+The dress ripped after wearing it once,Negative
+It works fine for the price,Neutral
+It works flawlessly every time.,Positive
+Not great.,Negative
+The vacuum stopped working after a month,Negative
+The dress was average nothing stylish,Neutral
+Disgusting quality and terrible service,Negative
+What a lovely human being,Positive
+Very expensive but totally worth the premium price.,Positive
+Average.,Neutral
+Terrible experience overall.,Negative
+Did it work correctly ?,Positive
+"It is neither good nor bad, just average.",Neutral
+Not the prettiest but performs beautifully,Positive
+This is extremely amazing,Positive
+You will never regret buying this,Positive
+Absolutely fantastic product.,Positive
+I do not enjoy using this,Negative
+I am torn between liking and disliking this,Neutral
+Terrible experience overall.,Negative
+Normal product nothing to complain about,Neutral
+A massive upgrade from last year.,Positive
+Average.,Neutral
+Completely unacceptable quality.,Negative
+It does what it is supposed to do,Neutral
+The food was absolutely delicious,Positive
+It is a fair product for the cost,Neutral
+The software is smooth and responsive,Positive
+The gym equipment broke on first use,Negative
+Not as good as the competition.,Negative
+Way cheaper feeling than the original version.,Negative
+The screen resolution is average,Neutral
+I liked the color but the quality is poor,Negative
+very nice experience I am happy,Positive
+Beautiful design and very functional.,Positive
+The device has a 5 inch screen.,Neutral
+Average.,Neutral
+What a completely wonderful waste of time.,Negative
+This person deserves nothing good,Negative
+What a jerk he turned out to be,Negative
+This laptop performs exceptionally well,Positive
+Not the best but not the worst either,Neutral
+It seemed ordinary but turned out to be excellent,Positive
+He has a heart of gold,Positive
+that is very good !,Positive
+The backpack is spacious and durable,Positive
+The gift arrived broken and unusable,Negative
+The gym equipment is sturdy and reliable,Positive
+Such a great experience shopping here,Positive
+Extremely disappointed in this brand.,Negative
+Standard.,Neutral
+I do not have any complaints really,Neutral
+Looks premium but feels very cheap,Negative
+Not bad for the price,Positive
+Bad.,Negative
+The gym equipment is basic but functional,Neutral
+The package was left at the door.,Neutral
+Not great.,Negative
+is it okay ?,Neutral
+Started rough but turned into a great experience,Positive
+I have never seen such good quality,Positive
+There are buttons on the side.,Neutral
+Beautiful design and very functional.,Positive
+It is made of plastic.,Neutral
+This person is a gem,Positive
+The software is buggy and slow,Negative
+Started as a disaster but became my favorite,Positive
+Perfect gift for my family,Positive
+Is this the best phone ever ?,Positive
+Nothing special but gets the job done,Neutral
+This laptop keeps overheating and crashing,Negative
+it arrived on tuesday,Neutral
+not a good choice,Negative
+Incredibly fast and reliable.,Positive
+It has flaws but I absolutely love it.,Positive
+Was the service bad ?,Negative
+"Sure, I love waiting on hold for three hours.",Negative
+Okay.,Neutral
+Not bad but not amazing either,Neutral
+Nothing special at all.,Neutral
+The backpack is fine for school use,Neutral
+Completely and utterly useless,Negative
+Good camera but terrible battery life,Negative
+Less durable than my last pair.,Negative
+Is it good ?,Positive
+How delightful another scam product,Negative
+Standard.,Neutral
+I cannot believe how bad this is,Negative
+It is what it is.,Neutral
+such a nice color and texture,Positive
+this is a nice product overall,Positive
+My kids got bored of this toy instantly,Negative
+The product looks like every other one,Neutral
+The course material is fair and average,Neutral
+"Yeah right, like this is actually going to work.",Negative
+This is incredibly awful,Negative
+I bought this on a Tuesday.,Neutral
+Terrible.,Negative
+This is a must buy product,Positive
+It works flawlessly every time.,Positive
+the battery lasts exactly 8 hours,Neutral
 it is nice,Positive
+Decent.,Neutral
+Horrible.,Negative
+This is not as bad as people say,Positive
+This never fails to impress me,Positive
+Best purchase ever if you want to throw away your money.,Negative
+The quality is top notch and premium,Positive
+Somewhat impressive product,Positive
+My dog refused to go near this bed,Negative
+It works flawlessly every time.,Positive
+I was worried initially but everything turned out great,Positive
+The menu looks great but the food was disgusting,Negative
+The display cracked within a week,Negative
+I love the color but the size is totally wrong.,Negative
+"Oh brilliant, exactly what I did not want.",Negative
+These headphones hurt my ears badly,Negative
+Do not buy this garbage.,Negative
+Why is this so terrible ?,Negative
+She is truly awful and toxic,Negative
+It comes in three colors.,Neutral
+Superb build quality and excellent performance.,Positive
+It is what it is.,Neutral
+not nice,Negative
+Absolutely fantastic product.,Positive
+it is fine,Neutral
+I would definitely buy this again,Positive
+Faster than the older model.,Positive
+Completely and utterly wonderful,Positive
+It arrived yesterday.,Neutral
+Great job making the worst product possible,Negative
+Most boring book I have ever read,Negative
+I feel indifferent about this product,Neutral
+The packaging was nice but the item arrived broken.,Negative
+The app has a menu.,Neutral
+This is my favorite product so far,Positive
+The moisturizer caused an allergic reaction,Negative
+the weather is nice today,Positive
+Is this the best phone ever ?,Positive
+Awesome.,Positive
+Terrible.,Negative
+Do not buy this garbage.,Negative
+I would give this negative stars if I could,Negative
+I am extremely satisfied with this,Positive
+Fine.,Neutral
+She is so rude and disrespectful,Negative
+The service was rude and unhelpful,Negative
+I would not recommend this,Negative
+She is an absolute queen,Positive
+it weighs around 2 pounds,Neutral
+It serves its purpose well enough,Neutral
+It works flawlessly every time.,Positive
+This phone is a total disaster,Negative
+My kids absolutely love this toy,Positive
+Best purchase ever if you want to throw away your money.,Negative
+This does not deserve any stars,Negative
+The flowers were delivered as expected,Neutral
+"It is neither good nor bad, just average.",Neutral
+The app has a menu.,Neutral
+The design is good but the battery is terrible.,Negative
+I demand a full refund for this trash.,Negative
+A mediocre product with no surprises,Neutral
+Started well but the ending was disappointing,Negative
+Some parts are great while others need work,Neutral
+It is adequate for what I need,Neutral
+I love the color but the size is totally wrong.,Negative
+A complete rip-off and a scam.,Negative
+Terrible.,Negative
+He is a legend in every way,Positive
+Less durable than my last pair.,Negative
+The cord is three feet long.,Neutral
+Incredibly fast and reliable.,Positive
+It is what it is.,Neutral
+It stopped working after five minutes.,Negative
+Fine.,Neutral
+Wonderful design and easy to use,Positive
+It is a basic laptop for everyday use,Neutral
+The picture quality is blurry and dark,Negative
+Nothing wrong with it but nothing exciting,Neutral
+Is the battery life acceptable ?,Positive
+Overpriced garbage not worth a single penny,Negative
+Way cheaper feeling than the original version.,Negative
+Shipping was slow but the product is amazing.,Positive
+This exceeded all my expectations,Positive
+It is not bad actually,Positive
+I do not like this product,Negative
+The shipping was incredibly fast and free,Positive
+"Wow, this lasted a whole two days. Impressive.",Negative
+Excellent.,Positive
+The movie was not entertaining,Negative
+the design is very nice and elegant,Positive
+Perfect just perfect it does not work at all,Negative
+I liked it initially but now I regret the purchase,Negative
+The worst thing I have ever wasted money on,Negative
+This computer takes forever to boot up,Negative
+This is the greatest invention ever,Positive
+Initially impressed but now deeply disappointed,Negative
+I bought this on a Tuesday.,Neutral
+Amazing gaming experience with no lag,Positive
+It requires two AA batteries.,Neutral
+Meh.,Neutral
+I could not be happier with this,Positive
+It requires two AA batteries.,Neutral
+Extremely disappointed in this brand.,Negative
+The hotel was clean but nothing luxurious,Neutral
+The size is standard and expected,Neutral
+I am extremely disappointed with the quality of this item,Negative
+It is made of plastic.,Neutral
+I thought it would be terrible but it turned out amazing,Positive
+Is this product worth the money ?,Positive
+Could not be happier with my purchase.,Positive
+He is an idiot and a fool,Negative
+Phenomenal experience will come back again,Positive
+The movie was neither good nor bad,Neutral
+Yeah sure this is the best product ever,Negative
+"Great, another problem to deal with.",Negative
+I am deeply disappointed with this,Negative
+just an average everyday item,Neutral
+"It is neither good nor bad, just average.",Neutral
+Okay.,Neutral
+The quality matches the price point,Neutral
+The cord is three feet long.,Neutral
+The battery life is average,Neutral
+Seems good at first but falls apart quickly,Negative
+This deserves more than five stars,Positive
+The price is good but the quality is garbage,Negative
+it does exactly what it is supposed to do,Neutral
+Ugly design and very hard to use,Negative
+Incredible performance for the price,Positive
+The staff was incredibly helpful,Positive
+Faster than the older model.,Positive
+It weighs exactly what the box says.,Neutral
+it is okay nothing special,Neutral
+"Sure, I love waiting on hold for three hours.",Negative
+She is unbearable to be around,Negative
+The first chapter was slow but the book got amazing,Positive
+It is completely useless.,Negative
+I am not unhappy with this purchase,Positive
+what a nice surprise,Positive
+Very impressed with the build quality,Positive
+The quality is garbage and flimsy,Negative
+Good.,Positive
+The service was not helpful at all,Negative
+Unbelievably good experience,Positive
+The camera quality is just okay,Neutral
+Less durable than my last pair.,Negative
+The craftsmanship is simply beautiful,Positive
+This is exactly what I needed,Positive
+A normal everyday kind of product,Neutral
+The packaging was nice but the item arrived broken.,Negative
+I have no strong opinion about this,Neutral
+At first I hated it but then I loved it,Positive
+Could not be happier with my purchase.,Positive
+Meh.,Neutral
+I demand a full refund for this trash.,Negative
+A complete ripoff do not buy this,Negative
+Not as good as the competition.,Negative
+Fantastic job breaking my phone.,Negative
+Terrible experience overall.,Negative
+The team did an incredible job,Positive
+Superior quality compared to everything else.,Positive
+There are buttons on the side.,Neutral
+the color is blue,Neutral
+is that nice ?,Positive
+I love the color but the size is totally wrong.,Negative
+He is so talented and hardworking,Positive
+Nothing special at all.,Neutral
+nice packaging and fast delivery,Positive
+Pathetic performance for the price,Negative
+I liked the idea but the product is a failure,Negative
+The manual is included in the box.,Neutral
+He is a terrible person,Negative
+Is it good ?,Positive
+I am thrilled with this purchase,Positive
+Highly impressed with the speed,Positive
+Love the color and texture,Positive
+Horrible.,Negative
+I am very happy with this purchase,Positive
+The hotel room was clean and comfortable,Positive
+I regret every single penny I spent on this garbage,Negative
+I was not impressed at all,Negative
+The app has a menu.,Neutral
+Excellent.,Positive
+"Yeah right, like this is actually going to work.",Negative
+The picture quality is standard for this price,Neutral
+Nice design however it stopped working in a day,Negative
+Is it good ?,Positive
+The user interface is clean and intuitive,Positive
+Shipping took three weeks and box was crushed,Negative
+An average book with a predictable plot,Neutral
+Works beautifully right out of the box,Positive
+Fairly low quality for the price,Negative
+Superb build quality and excellent performance.,Positive
+It comes in three colors.,Neutral
+Can this get any worse ?,Negative
+"Wow, this lasted a whole two days. Impressive.",Negative
+It is a reasonable product for now,Neutral
+This is such a bad product it makes me angry,Negative
+The package was left at the door.,Neutral
+It is not good at all,Negative
+good idea but terrible execution,Negative
+Whatever.,Neutral
+This did not meet any of my expectations,Negative
+This puzzle had missing pieces,Negative
+She ruins every room she walks into,Negative
+Decent.,Neutral
+He is so lazy and useless,Negative
+"Yeah right, like this is actually going to work.",Negative
+is this bad ?,Negative
+Decent.,Neutral
+It is not great but it is not terrible either,Neutral
+Why is this so terrible ?,Negative
+Was the delivery on time ?,Positive
+Not terrible at all quite good,Positive
+not worth the money,Negative
+this is nice,Positive
+Very expensive but totally worth the premium price.,Positive
+I have recommended this to all my friends,Positive
+A little worse than I expected,Negative
+Was the delivery on time ?,Positive
+This phone has excellent camera quality,Positive
+The quality is not good enough,Negative
+She is the sweetest person I know,Positive
+A bit better than I expected,Positive
+I would never buy this again,Negative
+I love the color but the size is totally wrong.,Negative
+I was disappointed at first but now I am impressed,Positive
+It looks cheap but works perfectly fine.,Positive
+"Great, another problem to deal with.",Negative
+Nice idea but the product is a disaster,Negative
+The flowers arrived wilted and dead,Negative
+was good at first but then broke,Negative
+Horrible sound and constant buzzing noise,Negative
+A little better than the rest,Positive
+Great sound and bass quality,Positive
+It looks good but performs very badly,Negative
+What a completely wonderful waste of time.,Negative
+Shipping was standard and took the usual time,Neutral
+Usually I hate this brand but this model is fantastic.,Positive
+it has a standard screen,Neutral
+Outstanding customer service experience,Positive
+Amazing how bad this product is,Negative
+The color is boring but the functionality is superb,Positive
+I was worried but the quality exceeded expectations,Positive
+Bad.,Negative
+Horrible.,Negative
+"Wow, this lasted a whole two days. Impressive.",Negative
+Returned it immediately after opening,Negative
+This is hands down the most useless thing I own,Negative
+This planner is simple and straightforward,Neutral
+not good,Negative
+Five stars all the way.,Positive
+"Oh brilliant, exactly what I did not want.",Negative
+standard quality,Neutral
+Absolutely love it cannot say enough good things,Positive
+Cannot complain about this one,Positive
+This dress fits perfectly and looks stunning,Positive
+Good first impression but terrible long term,Negative
+Five stars all the way.,Positive
+It is a regular phone nothing fancy,Neutral
+Standard.,Neutral
+Less durable than my last pair.,Negative
+He has no heart at all,Negative
+This smartwatch tracks everything perfectly,Positive
+It is completely useless.,Negative
+A regular toy nothing too exciting,Neutral
+This made my day so much better,Positive
+It comes in three colors.,Neutral
+The packaging was adequate and simple,Neutral
+It is not the best and not the worst product,Neutral
+It stopped working after five minutes.,Negative
+It is made of plastic.,Neutral
+Are you serious with this quality ?,Negative
+Shipping was slow but the product is amazing.,Positive
+Five stars without any doubt,Positive
+This ruined my entire experience,Negative
+The package was left at the door.,Neutral
+It looks cheap but works perfectly fine.,Positive
+Completely unacceptable quality.,Negative
+The air fryer burned everything I cooked,Negative
+It is completely useless.,Negative
+The display is beautiful and vibrant,Positive
+This is my worst purchase ever,Negative
+The cleaning product left stains everywhere,Negative
+The design is ugly but the sound quality is excellent,Positive
+She is a devil in disguise,Negative
+Did it work correctly ?,Positive
+I highly recommend this to anyone.,Positive
+Was the service bad ?,Negative
+The backpack zipper broke immediately,Negative
+It does the basic job.,Neutral
+Great features but horrible customer support.,Negative
+Is this the best phone ever ?,Positive
+This person deserves all the happiness,Positive
+Is the battery life acceptable ?,Positive
+I feel great after using this product,Positive
+Reviews were mixed but I absolutely love this,Positive
+Decent.,Neutral
+The design is nice but the battery is terrible,Negative
+Superior quality compared to everything else.,Positive
+Is this the best phone ever ?,Positive
+What a pleasant surprise this was,Positive
+The sunscreen works but feels greasy,Neutral
+This smartwatch has standard tracking features,Neutral
+Very disappointed with the build quality,Negative
+She always makes everyone smile,Positive
+Extremely disappointed in this brand.,Negative
+Why is this so terrible ?,Negative
+"Sure, I love waiting on hold for three hours.",Negative
+I really really love this item so much,Positive
+"Sure, I love waiting on hold for three hours.",Negative
+I am furious with this purchase,Negative
+This product is okay nothing special,Neutral
+this is not good,Negative
+It does the basic job.,Neutral
+Standard.,Neutral
+Average.,Neutral
+Can this get any worse ?,Negative
+Awesome.,Positive
+I am deeply satisfied with this,Positive
+Average product nothing great nothing bad,Neutral
+Way cheaper feeling than the original version.,Negative
+not what I expected at all,Negative
+Shipping was slow but the product is amazing.,Positive
+There are things I like and things I dislike about it,Neutral
+This is nothing like what was advertised,Negative
+It arrived yesterday.,Neutral
+I am blown away by the picture quality,Positive
+Promised a lot but delivered nothing useful,Negative
+Best coffee I have tasted in years,Positive
+Excellent.,Positive
+Happy to say this works flawlessly,Positive
+Awful performance and ugly design,Negative
+Okay.,Neutral
+not bad,Positive
+Did it work correctly ?,Positive
+Not the worst option out there,Positive
