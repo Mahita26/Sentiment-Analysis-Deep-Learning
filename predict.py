@@ -1,27 +1,20 @@
 """
-Prediction Script for Sentiment Analysis (PyTorch)
-====================================================
-Loads the saved model and provides interactive CLI for predictions.
-
-Usage:
-    python predict.py
+Prediction Script for Sentiment Analysis (LSTM)
+===============================================
+Loads the saved LSTM model and provides interactive CLI for predictions.
 """
 
 import os
 import sys
 
-# Add project root to path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import torch
-import torch.nn.functional as F
 import numpy as np
 
 from src.preprocess import preprocess_single, decode_prediction, load_object, scaled_softmax
 from src.model import build_model
 
-
-# Paths
 SAVE_DIR       = "saved_model"
 MODEL_PATH     = os.path.join(SAVE_DIR, "model.pt")
 TOKENIZER_PATH = os.path.join(SAVE_DIR, "tokenizer.pkl")
@@ -30,9 +23,7 @@ CONFIG_PATH    = os.path.join(SAVE_DIR, "config.pkl")
 EMOJI = {"Positive": ":)", "Neutral": ":|", "Negative": ":("}
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-
 def load_trained_model():
-    """Load the saved PyTorch model."""
     checkpoint = torch.load(MODEL_PATH, map_location=DEVICE, weights_only=True)
     model = build_model(
         vocab_size=checkpoint["vocab_size"],
@@ -44,22 +35,18 @@ def load_trained_model():
     model.eval()
     return model
 
-
 def predict_sentiment(text: str, model, tokenizer, max_len: int) -> dict:
-    """Run a single prediction and return result dict."""
     padded = preprocess_single(text, tokenizer, max_len)
     tensor = torch.from_numpy(padded).long().to(DEVICE)
     with torch.no_grad():
         logits = model(tensor)
         logits_np = logits.cpu().numpy()[0]
-        probs = scaled_softmax(logits_np)
+        probs = scaled_softmax(logits_np, temperature=0.5)
     return decode_prediction(probs)
 
-
 def main():
-    # Load artifacts
     if not os.path.exists(MODEL_PATH):
-        print("[ERROR] Model not found. Please run  python train.py  first.")
+        print("[ERROR] Model not found. Please run python train.py first.")
         sys.exit(1)
 
     print("Loading model...")
@@ -69,9 +56,8 @@ def main():
     max_len   = config["max_len"]
     print("[OK] Model loaded successfully!\n")
 
-    # Interactive loop
     print("=" * 60)
-    print("  SENTIMENT ANALYSIS - LIVE PREDICTION")
+    print("  SENTIMENT ANALYSIS - LIVE PREDICTION (LSTM)")
     print("  Type a sentence and press Enter.")
     print("  Type 'quit' to exit.")
     print("=" * 60)
@@ -95,7 +81,6 @@ def main():
         for cls, prob in result["probabilities"].items():
             bar = "#" * int(prob / 5) + "." * (20 - int(prob / 5))
             print(f"   {cls:>8s}  [{bar}]  {prob:.1f}%")
-
 
 if __name__ == "__main__":
     main()
